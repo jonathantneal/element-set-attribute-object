@@ -1,0 +1,46 @@
+{
+  "name": "element-set-attribute-object",
+  "version": "1.0.0",
+  "description": "Set multiple attributes on the current element",
+  "main": "index.js",
+  "files": [
+    "LICENSE.md",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "eslint index.js --ignore-path .gitignore && jscs index.js"
+  },
+  "repository": "jonathantneal/element-set-attribute-object",
+  "keywords": [
+    "scope",
+    "dom",
+    "element",
+    "matches",
+    "polyfill",
+    "standard",
+    "relative",
+    "context",
+    "queries",
+    "query",
+    "selectors"
+  ],
+  "author": "Jonathan Neal <jonathantneal@hotmail.com> (http://jonathantneal.com)",
+  "license": "CC0-1.0",
+  "bugs": "https://github.com/jonathantneal/element-set-attribute-object/issues",
+  "homepage": "https://github.com/jonathantneal/element-set-attribute-object#readme",
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-10up": "github:jonathantneal/eslint-config-10up",
+    "jscs": "^3.0.7",
+    "jscs-config-10up": "github:jonathantneal/jscs-config-10up"
+  },
+  "eslintConfig": {
+    "extends": "10up",
+    "rules": {
+      "no-unused-vars": [0]
+    }
+  },
+  "jscsConfig": {
+    "preset": "10up"
+  }
+}
